@@ -1,7 +1,9 @@
-*.env
-*.ipynb_checkpoints
+### dotenv ###
+.env
+.ipynb_checkpoints
 */.ipynb_checkpoints/*
+### Python ###
+# Byte-compiled / optimized / DLL files
 __pycache__/
-__pycache__/*
 
 
