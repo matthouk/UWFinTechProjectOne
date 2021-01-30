@@ -5,6 +5,11 @@ import os
 import alpaca_trade_api as tradeapi
 import datetime as dt
 import pytz
+import panel as pn
+from panel.interact import interact
+import plotly.express as px
+pn.extension("plotly")
+import hvplot.pandas 
 
 class MCSimulation:
     """
@@ -136,7 +141,7 @@ class MCSimulation:
             
         # Use Pandas plot function to plot the return data
         plot_title = f"{self.nSim} Simulations of Cumulative Portfolio Return Trajectories Over the Next {self.nTrading} Trading Days."
-        return self.simulated_return.plot(legend=None,title=plot_title)
+        return self.simulated_return.hvplot(legend=None,title=plot_title)
     
     def plot_distribution(self):
         """
