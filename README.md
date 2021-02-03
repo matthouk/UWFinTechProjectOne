@@ -8,6 +8,8 @@
 * James Reeves 
 * Matt Houk
 
+__Final Analysis is summarized in the Data Together Jupyter Lab__
+
 ## Comparing 5 ESG related funds to find out where the biggest bang for your environmental, social, and governmental buck is. 
 
 ## Question to answer: 
