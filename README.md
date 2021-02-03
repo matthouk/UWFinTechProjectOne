@@ -8,7 +8,7 @@
 * James Reeves 
 * Matt Houk
 
-__Final Analysis is summarized in the Data Together Jupyter Lab__
+[__Summarized Analysis is combined in the Main Analysis -  Data Together Jupyter Notebook__](https://github.com/matthouk/UWFinTechProjectOne/blob/main/Main%20Analysis%20-%20DataTogerther.ipynb)
 
 ## Comparing 5 ESG related funds to find out where the biggest bang for your environmental, social, and governmental buck is. 
 
